@@ -1,9 +1,9 @@
-package Olimpica.LogisticaCompras.Promociones;
+package Ejercicio_1.Olimpica.LogisticaCompras.Promociones;
 
 
-import Olimpica.Productos.Producto;
+import Ejercicio_1.Olimpica.Productos.Producto;
 
-public class Descuentos implements Olimpica.LogisticaCompras.InterfazDescuentos.Descuentos {
+public class Descuentos implements Ejercicio_1.Olimpica.LogisticaCompras.InterfazDescuentos.Descuentos {
 private double descuento = 0.25;
 
     public double getDescuento() {

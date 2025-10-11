@@ -1,4 +1,4 @@
-package Olimpica.Usuarios;
+package Ejercicio_1.Olimpica.Usuarios;
 
 public abstract class Usuario {
     private String nombre;

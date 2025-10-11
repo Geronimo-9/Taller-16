@@ -1,6 +1,6 @@
-package Olimpica.LogisticaCompras.Mensaje;
+package Ejercicio_1.Olimpica.LogisticaCompras.Mensaje;
 
-import Olimpica.LogisticaCompras.Mensaje.InterfazMensajes.Mensajes;
+import Ejercicio_1.Olimpica.LogisticaCompras.Mensaje.InterfazMensajes.Mensajes;
 
 public class MensajePantalla implements Mensajes {
 

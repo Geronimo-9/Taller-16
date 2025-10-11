@@ -1,6 +1,6 @@
-package Olimpica.AutenticarUsuario;
+package Ejercicio_1.Olimpica.AutenticarUsuario;
 
-import Olimpica.Usuarios.Cliente;
+import Ejercicio_1.Olimpica.Usuarios.Cliente;
 
 public class Validar {
 

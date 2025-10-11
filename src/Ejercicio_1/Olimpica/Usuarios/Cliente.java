@@ -1,8 +1,8 @@
-package Olimpica.Usuarios;
+package Ejercicio_1.Olimpica.Usuarios;
 
-import Olimpica.Interfaces.InterfazCliente;
-import Olimpica.LogisticaCompras.Promociones.Descuentos;
-import Olimpica.Productos.Producto;
+import Ejercicio_1.Olimpica.Interfaces.InterfazCliente;
+import Ejercicio_1.Olimpica.LogisticaCompras.Promociones.Descuentos;
+import Ejercicio_1.Olimpica.Productos.Producto;
 
 public class Cliente extends Usuario implements InterfazCliente {
 private double dinero;

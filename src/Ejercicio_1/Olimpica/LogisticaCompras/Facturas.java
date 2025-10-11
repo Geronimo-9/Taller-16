@@ -1,8 +1,8 @@
-package Olimpica.LogisticaCompras;
+package Ejercicio_1.Olimpica.LogisticaCompras;
 
-import Olimpica.Usuarios.Cliente;
-import Olimpica.LogisticaCompras.Promociones.Descuentos;
-import Olimpica.Productos.Producto;
+import Ejercicio_1.Olimpica.Usuarios.Cliente;
+import Ejercicio_1.Olimpica.LogisticaCompras.Promociones.Descuentos;
+import Ejercicio_1.Olimpica.Productos.Producto;
 
 public class Facturas {
 

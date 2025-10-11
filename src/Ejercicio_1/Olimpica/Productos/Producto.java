@@ -1,4 +1,4 @@
-package Olimpica.Productos;
+package Ejercicio_1.Olimpica.Productos;
 
 public class Producto {
     private String nombre;

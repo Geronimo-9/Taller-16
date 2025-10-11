@@ -1,12 +1,14 @@
-import Olimpica.AutenticarUsuario.Autenticar;
-import Olimpica.AutenticarUsuario.Validar;
-import Olimpica.Usuarios.Cliente;
-import Olimpica.LogisticaCompras.DineroDisponible;
-import Olimpica.LogisticaCompras.Facturas;
-import Olimpica.LogisticaCompras.Mensaje.MensajePantalla;
-import Olimpica.LogisticaCompras.ValidarCompras;
-import Olimpica.Productos.Producto;
-import Olimpica.LogisticaCompras.Promociones.Descuentos;
+import Ejercicio_1.Olimpica.AutenticarUsuario.Autenticar;
+import Ejercicio_1.Olimpica.AutenticarUsuario.Validar;
+import Ejercicio_1.Olimpica.Usuarios.Cliente;
+import Ejercicio_1.Olimpica.LogisticaCompras.DineroDisponible;
+import Ejercicio_1.Olimpica.LogisticaCompras.Facturas;
+import Ejercicio_1.Olimpica.LogisticaCompras.Mensaje.MensajePantalla;
+import Ejercicio_1.Olimpica.LogisticaCompras.ValidarCompras;
+import Ejercicio_1.Olimpica.Productos.Producto;
+import Ejercicio_1.Olimpica.LogisticaCompras.Promociones.Descuentos;
+import Ejercicio_2.Documento;
+import Ejercicio_2.Exportaciones.Exportacion;
 
 import java.util.Scanner;
 
@@ -14,7 +16,11 @@ public class Main {
     public static void main(String[] args) {
 
 
-Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
+
+
+/*
+
 
 //Ejercicio 1, implementar Descuentos fijos sin modificar la clase. (UN "MEGA" PROYECTO INSPIRADOME EN LOS TALLERES PREVIOS)
 
@@ -90,6 +96,31 @@ Scanner teclado = new Scanner(System.in);
 
 
         System.out.println("Fin de la version demo del ejercicio 1");
+
+
+
+
+        */
+
+
+        //Ejercicio 2, Exportar archivos de varios formatos y ofimatica.
+
+        Exportacion formato = new Exportacion();
+        Documento archivo = new Documento("System32_Pirateado");
+
+        formato.exportarPdf(archivo);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
