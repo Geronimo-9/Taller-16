@@ -9,6 +9,8 @@ import Ejercicio_1.Olimpica.Productos.Producto;
 import Ejercicio_1.Olimpica.LogisticaCompras.Promociones.Descuentos;
 import Ejercicio_2.Documento;
 import Ejercicio_2.Exportaciones.Exportacion;
+import Ejercicio_3.Canales.Canales;
+import Ejercicio_3.Mensajero;
 
 import java.util.Scanner;
 
@@ -119,7 +121,13 @@ public class Main {
 
 
 
+         //Ejercicio 3 Sistema de envio de mensajes
 
+
+        Mensajero mensaje = new Mensajero("Hola profe. ¿Qué le parecio la version Buffeada del ejercicio 1?");
+        Canales canal = new Canales();
+
+        canal.enviarEmail(mensaje);
 
 
 
