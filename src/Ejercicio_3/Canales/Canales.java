@@ -8,4 +8,14 @@ public class Canales implements CanalesEnvio {
     public void enviarEmail(Mensajero m1) {
         System.out.println("Enviando por Email el mensaje: "+m1.getMensaje());
     }
+
+    @Override
+    public void enviarSMS(Mensajero m1) {
+        System.out.println("Enviando por SMS el mensaje: "+m1.getMensaje());
+    }
+
+    @Override
+    public void enviarWhatsApp(Mensajero m1) {
+        System.out.println("Enviando por WhatsApp mensaje: "+m1.getMensaje());
+    }
 }

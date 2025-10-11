@@ -128,7 +128,8 @@ public class Main {
         Canales canal = new Canales();
 
         canal.enviarEmail(mensaje);
-
+        canal.enviarWhatsApp(mensaje);
+        canal.enviarSMS(mensaje);
 
 
 
