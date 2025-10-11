@@ -108,7 +108,12 @@ public class Main {
         Exportacion formato = new Exportacion();
         Documento archivo = new Documento("System32_Pirateado");
 
-        formato.exportarPdf(archivo);
+         formato.exportarPdf(archivo);
+         formato.exportarExcel(archivo);
+         formato.exportarHtml(archivo);
+         formato.exportarPowerPoint(archivo);
+         formato.exportarWord(archivo);
+         formato.exportarTexto(archivo);
 
 
 
